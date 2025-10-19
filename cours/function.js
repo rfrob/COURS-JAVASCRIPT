@@ -27,6 +27,20 @@ let resultat= factorielle(5);
 console.log("Le résultat de la factorielle est : " + resultat);
 
 
+// BOUCLE DO WHILE
+let i=0;
+do {
+  console.log("Le nombre est:" + i);
+  i++;
+}
+while (i<5);
+
+const colors = ["Red", "Yellow", "Blue"];
+ for (const color of colors){
+   console.log(color);
+ }
+
+
 /*  A DECOUVRIR
 
 
@@ -72,4 +86,4 @@ function estPremier(n, div=2){
   }
 }
 let estPremierResult = estPremier(7);
-console.log("Le nombre 7 est-il premier ? " + estPremierResult);
+console.log("Le nombre 7 est-il premier ? " + estPremierResult);*/
